@@ -50,9 +50,13 @@ func (e *invalidMessageLenErr) Error() string {
 
 type invalidMessageFormatErr struct {
 	messageType string
+	details     string
 }
 
 func (e *invalidMessageFormatErr) Error() string {
+	if e.details != "" {
+		return fmt.Sprintf("%s body is invalid: %s", e.messageType, e.details)
+	}
 	return fmt.Sprintf("%s body is invalid", e.messageType)
 }
 
