@@ -82,7 +82,7 @@ func (dst *Bind) Decode(src []byte) error {
 				continue
 			}
 
-			if len(src[rp:]) < msgSize {
+			if len(src[rp:]) < msgSize || msgSize < 0 {
 				return &invalidMessageFormatErr{messageType: "Bind"}
 			}
 
