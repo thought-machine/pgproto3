@@ -1,8 +1,8 @@
 [![](https://godoc.org/github.com/jackc/pgproto3?status.svg)](https://godoc.org/github.com/jackc/pgproto3)
 [![Build Status](https://travis-ci.org/jackc/pgproto3.svg)](https://travis-ci.org/jackc/pgproto3)
 
-[!IMPORTANT]
-Maintenance Notice: This fork is maintained by Thought Machine specifically for addressing security vulnerabilities. It is not intended for feature development or general-purpose use. We do not accept external Pull Requests.
+> [!IMPORTANT]
+> Maintenance Notice: This fork is maintained by Thought Machine specifically for addressing security vulnerabilities. It is not intended for feature development or general-purpose use. We do not accept external Pull Requests.
 
 ---
 
